@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+}
+
+.setup{
+    padding: 5rem 11rem;
+    display: grid;
+    
+    
+   
+    background-color: #3D087B;
+
+    
+
+}
+
+.bi{
+    border-color: linear-gradient(purple, rgb(99, 33, 221));
+    
+
+}
+
+
+.bi-clock{
+    border: 7rem;
+     
+    border-radius: 50%;
+    border: 1rem solid rgb(218, 72, 218);
+   
+}
+
+.clock{
+    display: inline-flex;
+    grid-column: 2;
+    grid-row: 1;
+    top: 42px;
+    left: 706px;
+    width: 536px;
+    height: 130px;
+
+    background-color: white;
+    border-radius: 4px;
+    /* border-color: black; */
+    /* height: fit-content; */
+    /* width: fit-content; */
+    text-align: center;
+
+}
+
+.time{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 1rem 0.5rem;
+    
+    top: 62px;
+    left: 823px;
+    width: 80px;
+    height: 90px;
+    padding-top: 8px;
+    
+    background-color: rgb(226, 195, 240);
+    border-radius: 4px;
+}
+.time1{
+    background-color: white;
+    /* align-content: center; */
+    font-size: xx-large;
+    /* padding: 0px; */
+    padding-top: 25px;
+    color: #953fcb;
+}
+.time2{
+    font-size: xx-large;
+    color: #953fcb;
+}
+
+.set-time{
+    display: grid;
+    top: 212px;
+    left: 124px;
+    width: 566px;
+    height: 300px;
+    
+    background-color: white;
+    border-radius: 4px;
+    
+}
+
+#setPic{
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 20px;
+    border-radius: 5px;
+    top: 212px;
+    left: 706px;
+    width: 536px;
+    height: 474px;
+
+}
+/*select box   
+grid-column: 3;*/
+.set{
+    width: 15rem;
+    height: 2rem;
+    
+}
+.set1{
+    grid-column: 2;
+    margin-block-start: 17px;
+}
+.set2{
+    grid-column: 1;
+    margin-block-end: -15px;
+}
+#but{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.set_time{
+    margin-top: 20px;
+    top: 547px;
+    left: 124px;
+    width: 299px;
+    height: 50px;
+    background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    
+    
+    text-align: center;
+    font: normal normal 600 24px/38px Manrope;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    
+}
+.set_time:hover{
+    top: 547px;
+    left: 124px;
+    width: 299px;
+    height: 50px;
+    opacity: 1;
+
+}
+
+.print{
+    background-color: #be83f4;
+    border-radius: 4px;
+    width: 566px;
+}
+
+
+.line{
+    height: 3rem;
+    width: 2px;
+    background-color: #3D087B;
+    margin-left: 17px;
+}

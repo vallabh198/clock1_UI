@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    
+
+</head>
+<body>
+    <div class="setup" >
+        <img src="./clock.png"  alt="">
+        <div class="clock">
+            <div class="time time1">TIME</div>
+            <div class="time time2"><div  id = "digital-clock1"> </div> hour</div>
+            <div class="time time2"><div  id = "digital-clock2"> </div> mins</div>
+            <div class="time time2"><div  id = "digital-clock3"> </div> secs</div>
+            <div class="time time2"><div  id = "digital-clock4"> </div> </div>
+           
+        </div><br>
+        <div id="but">
+            <div class="set-time">
+                <form action="" class="set1"><img src="./wake.png" alt=""class="set2">
+                     set wake up time          
+                    <select name="wake_up_time"  id="wake_up_time" class="set">
+                        <option value="Please select option"></option>
+                        <option value="12AM">12AM-01AM</option>
+                        <option value="01AM">01AM-02AM</option>
+                        <option value="02AM">02AM-03AM</option>
+                        <option value="03AM">03AM-04AM</option>
+                        <option value="04AM">04AM-05AM</option>
+                        <option value="05AM">05AM-06AM</option>
+                        <option value="06AM">06AM-07AM</option>
+                        <option value="07AM">07AM-08AM</option>
+                        <option value="08AM">08AM-09AM</option>
+                        <option value="09AM">09AM-10AM</option>
+                        <option value="10AM">10AM-11AM</option>
+                        <option value="11AM">11AM-12PM</option>
+                        <option value="12PM">12PM-01PM</option>
+                        <option value="01PM">01PM-02PM</option>
+                        <option value="02PM">02PM-03PM</option>
+                        <option value="03PM">03PM-04PM</option>
+                        <option value="04PM">04PM-05PM</option>
+                        <option value="05PM">05PM-06PM</option>
+                        <option value="06PM">06PM-07PM</option>
+                        <option value="07PM">07PM-08PM</option>
+                        <option value="08PM">08PM-09PM</option>
+                        <option value="09PM">09PM-10PM</option>
+                        <option value="10PM">10PM-11PM</option>
+                        <option value="11PM">11PM-12AM</option>
+                        
+
+                    </select>
+
+
+                </form><br><div class="line"></div>
+                <form action=""class="set1"><img src="./lunch.png" alt=""class="set2">
+                    set lunch time
+                    <select name="set_lunch_time" id="set_lunch_time" class="set">
+                        <option value="Please select option"></option>
+                        <option value="12AM">12AM-01AM</option>
+                        <option value="01AM">01AM-02AM</option>
+                        <option value="02AM">02AM-03AM</option>
+                        <option value="03AM">03AM-04AM</option>
+                        <option value="04AM">04AM-05AM</option>
+                        <option value="05AM">05AM-06AM</option>
+                        <option value="06AM">06AM-07AM</option>
+                        <option value="07AM">07AM-08AM</option>
+                        <option value="08AM">08AM-09AM</option>
+                        <option value="09AM">09AM-10AM</option>
+                        <option value="10AM">10AM-11AM</option>
+                        <option value="11AM">11AM-12PM</option>
+                        <option value="12PM">12PM-01PM</option>
+                        <option value="01PM">01PM-02PM</option>
+                        <option value="02PM">02PM-03PM</option>
+                        <option value="03PM">03PM-04PM</option>
+                        <option value="04PM">04PM-05PM</option>
+                        <option value="05PM">05PM-06PM</option>
+                        <option value="06PM">06PM-07PM</option>
+                        <option value="07PM">07PM-08PM</option>
+                        <option value="08PM">08PM-09PM</option>
+                        <option value="09PM">09PM-10PM</option>
+                        <option value="10PM">10PM-11PM</option>
+                        <option value="11PM">11PM-12AM</option>
+
+                    </select>
+                
+                </form><br>
+                <div class="line"></div>
+                <form action=""class="set1"><img src="./nap.png" alt=""class="set2">
+                    set nap time
+                    <select name="set_nap_time" id="set_nap_time" class="set">
+                        <option value="Please select option"></option>
+                        <option value="12AM">12AM-01AM</option>
+                        <option value="01AM">01AM-02AM</option>
+                        <option value="02AM">02AM-03AM</option>
+                        <option value="03AM">03AM-04AM</option>
+                        <option value="04AM">04AM-05AM</option>
+                        <option value="05AM">05AM-06AM</option>
+                        <option value="06AM">06AM-07AM</option>
+                        <option value="07AM">07AM-08AM</option>
+                        <option value="08AM">08AM-09AM</option>
+                        <option value="09AM">09AM-10AM</option>
+                        <option value="10AM">10AM-11AM</option>
+                        <option value="11AM">11AM-12PM</option>
+                        <option value="12PM">12PM-01PM</option>
+                        <option value="01PM">01PM-02PM</option>
+                        <option value="02PM">02PM-03PM</option>
+                        <option value="03PM">03PM-04PM</option>
+                        <option value="04PM">04PM-05PM</option>
+                        <option value="05PM">05PM-06PM</option>
+                        <option value="06PM">06PM-07PM</option>
+                        <option value="07PM">07PM-08PM</option>
+                        <option value="08PM">08PM-09PM</option>
+                        <option value="09PM">09PM-10PM</option>
+                        <option value="10PM">10PM-11PM</option>
+                        <option value="11PM">11PM-12AM</option>
+                    </select>
+                </form>
+                
+
+            </div>
+            <div id="button">
+                <button onclick="option(), setImage()" id ="button" class="set_time" >Set Time!</button>
+
+            </div>
+            
+            <div class="print">
+                <p id="print"></p>
+                <p id="print1"></p>
+                <p id="print2"></p>
+            </div>
+            
+        </div>
+        
+        <img id="setPic"src="" alt="">
+        
+        
+       
+    </div>
+    
+    
+      
+
+    
+</body>
+<script src="./index.js"></script>
+
+</html>
